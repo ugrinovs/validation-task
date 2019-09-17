@@ -1,4 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Starting the project
+Run:
+```
+cp .env.example .env && yarn start
+```
 
 ## Available Scripts
 

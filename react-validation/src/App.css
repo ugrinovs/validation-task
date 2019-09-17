@@ -1,0 +1,44 @@
+.form-wrapper {
+  /*display: flex;*/
+  align-items: center;
+}
+/*.form {*/
+/*  display: flex;*/
+/*  justify-self: center;*/
+/*  !*align-content: center;*!*/
+/*}*/
+
+.form-row {
+  display: flex;
+  justify-content: flex-end;
+  width: auto;
+  height: 25px;
+  padding: 10px;
+}
+
+.form-row > label {
+  flex: 1;
+}
+.form-row > input {
+  flex: 3;
+}
+
+.form-row > input[type="checkbox"] {
+  display: block;
+}
+
+.form-error {
+  display: flex;
+  justify-content: center;
+  color: red;
+}
+
+.form-row > button {
+  background: gray;
+  color: white;
+  border: 0;
+}
+
+.form-row > button:disabled {
+  cursor: not-allowed;
+}
